@@ -1,36 +1,22 @@
-# Programming Fundamentals — C++ Lab Work
+# Programming Fundamentals — C++ Labs
 
-Academic C++ programming work from the **BS Artificial Intelligence** program at **Riphah International University, Islamabad**.
+Programming Fundamentals lab submissions for Shan (BS Artificial Intelligence, Riphah International University).
 
-## Featured Project: House Rental System
+## Repository layout
 
-The repository includes a console-based **House Rental System** written in C++:
+- `lab-01/` through `lab-10/` — original submissions organized by the lab numbers indicated in their filenames
+- `lab-07/submission.docx` — additional lab report
+- `lab-08/solution.cpp`, `lab-09/solution.cpp` — original C++ source code
+- `resources/` — supplemental archived coursework
 
-`Shan,72387,Final project PF Sem ,C++,House Rental System.cpp`
+**Important:** Original uploads contained identical PDF and C++ files under several different lab numbers. The duplicate copies have been removed from the current branch, while `backup/pre-reorganization-2026-11-14` preserves every original name and file. For example, a file labelled *Lab 11* was identical to the *Lab 9* C++ source; a *Lab 6* PDF matched the *Lab 7* PDF. The task numbers must be cross-checked against the actual assignment sheets before treating those conflicting labels as authoritative.
 
-### Implemented functionality
-- User and administrator menus
-- Property listings by city and area
-- Selecting a house and calculating rent for a chosen duration
-- Security deposit and sample tax calculation
-- Booking agreement confirmation and basic booking history
-- Admin-side add, edit, delete, and listing operations
+## Final project
 
-> This is an academic prototype. Booking history is held in memory, and any legal/agreement text is illustrative rather than legal advice. The source contains a demonstration-only hard-coded admin password; do not use it in production.
+The original C++ House Rental System has moved to its [dedicated project repository](https://github.com/ShanShahidAI/house-rental-system).
 
-## Other work
+## Notes
 
-C++ lab exercises and submissions are organized alongside the final project. Some coursework is present as documents rather than standalone code.
+Coursework PDF files are original student submissions. Not every lab contains separately runnable code. No missing programs have been fabricated.
 
-## Build and run the House Rental System
-
-From a C++11-compatible compiler or terminal:
-
-```bash
-g++ -std=c++11 "Shan,72387,Final project PF Sem ,C++,House Rental System.cpp" -o house_rental
-./house_rental
-```
-
-**Student:** Shan · BS Artificial Intelligence
-
-[LinkedIn](https://www.linkedin.com/in/shan-shahid-ai) · [GitHub Profile](https://github.com/zahidmehar)
+[GitHub profile](https://github.com/ShanShahidAI) · [LinkedIn](https://www.linkedin.com/in/shan-shahid-ai)
